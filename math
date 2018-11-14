@@ -28,7 +28,7 @@ public class librerias {
 		System.out.println(absb);
 		//el proximo hacia el infinito positivo
 		double nxt=Math.nextUp(b);
-		System.out.println("~"+nxt);
+		System.out.println(nxt);
 		//raiz
 		double raiz=Math.sqrt(valor);
 		System.out.println(raiz);
