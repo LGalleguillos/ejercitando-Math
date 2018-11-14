@@ -10,6 +10,9 @@ public class librerias {
 		//raiz cubica
 		double cub=Math.cbrt(b);
 		System.out.println(cub);
+		//aleatorio entre 0 y 1
+		double rm=Math.random();
+		System.out.println(rm);
 		//hipo
 		double sp=Math.hypot(valor, b);
 		System.out.println(sp);
