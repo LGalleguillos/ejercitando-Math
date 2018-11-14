@@ -1,0 +1,67 @@
+package librerias;
+
+public class librerias {
+
+	public static void main(String[] args) {
+		double valor= 25.56685;
+		double b=30;
+		int a=5;
+		int c=95;
+		//raiz cubica
+		double cub=Math.cbrt(b);
+		System.out.println(cub);
+		//hipo
+		double sp=Math.hypot(valor, b);
+		System.out.println(sp);
+		//max-min
+		double max=Math.max(valor, b);
+		System.out.println(max);
+		double min=Math.min(valor, b);
+		System.out.println(min);
+		//valor absoluto
+		double absva=Math.abs(valor);
+		double absb=Math.abs(b);
+		System.out.println(absva);
+		System.out.println(absb);
+		//el proximo hacia el infinito positivo
+		double nxt=Math.nextUp(b);
+		System.out.println("~"+nxt);
+		//raiz
+		double raiz=Math.sqrt(valor);
+		System.out.println(raiz);
+		//redondeo hacia arriba
+		double redondeo=Math.round(valor);
+		System.out.println(redondeo);
+		//potencia
+		double pot=Math.pow(valor, 2);
+		System.out.println(pot);
+		//logaritmo
+		double lgva=Math.log(valor);
+		double lgb=Math.log(b);
+		System.out.println(lgva);
+		System.out.println(lgb);
+		//exponente de int
+		int expc=Math.getExponent(c);
+		System.out.println(expc);
+		int expa=Math.getExponent(a);
+		System.out.println(expa);
+		//seno,coseno,tangente
+		double senval=Math.sin(valor);
+		System.out.println("el seno, coseno y tangente de "+valor+" es ");
+		System.out.println(senval);
+		double cosval=Math.cos(valor);
+		System.out.println(cosval);
+		double tanval=Math.tan(valor);
+		System.out.println(tanval);
+		double senb=Math.sin(b);
+		System.out.println("el seno, coseno y tangente de "+b+" es ");
+		System.out.println(senb);
+		double cosb=Math.cos(b);
+		System.out.println(cosb);
+		double tanb=Math.tan(b);
+		System.out.println(tanb);
+		
+ 
+	}
+
+}
